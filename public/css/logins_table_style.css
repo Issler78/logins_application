@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    padding: 10px;
+}
+
+.message {
+    background-color: #28a745; /* Cor verde */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-family: 'Poppins', sans-serif;
+}
+
+table td a{
+    text-decoration: none;
+    color: black;
+}
+
+table td a:hover{
+    text-decoration: underline;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5;
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+tr:hover {
+    background-color: #f5f5f5;
+}
+  
+th {
+    background-color: #f2f2f2;
+}
+  
+/* Estilos para os botões */
+.edit-btn, .delete-btn, .add-btn {
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+  
+.edit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-btn:hover{
+    background-color: #408d43;
+}
+
+.add-btn{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.add-btn:hover{
+    background-color: #408d43;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.search-input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Make the input rounded */
+    font-size: 16px;
+    flex-grow: 1; /* Allow the input to grow and fill available space */
+    margin-right: -30px; /* Add some space between input and icon */
+    height: 22px;
+    width: 140px;
+}
+
+.search-btn {
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    border-radius: 50%; /* Make the button round */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
