@@ -5,10 +5,6 @@ body{
     padding: 0;
 }
 
-.main{
-    padding: 10px;
-}
-
 .message {
     background-color: #28a745; /* Cor verde */
     color: #fff; /* Texto branco */
@@ -18,9 +14,14 @@ body{
     margin: 0;
 }
 
+.main{
+    padding: 10px;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
+    min-width: 360px;
     border: 1px solid #ddd;
     font-family: 'Poppins', sans-serif;
 }
@@ -45,6 +46,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1.5;
+    margin: 10px;
 }
   
 th, td {
@@ -85,6 +87,12 @@ th {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:415px){
+    .add-btn{
+        font-size: 12px;
+    }
 }
 
 .add-btn:hover{

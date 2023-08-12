@@ -11,6 +11,13 @@ a{
     font-size: 20px;
 }
 
+@media screen and (max-width:415px) {
+    .data-table{
+        font-size: 14px;
+        padding: 2px;
+    }
+}
+
 .data-table th, .data-table td {
     border: 1px solid #ccc;
     padding: 8px;
